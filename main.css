@@ -3,10 +3,47 @@
     margin-bottom: 20px;
 }
 
-.header > h3, h5 {
+.header > h2, h3, h5 {
     margin: 0;
     padding-top: 20px;
     text-align: center;
 }
 
 /* Include any custom CSS styling here! */
+
+html, body, text, button, label, h3, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+text {
+    font-size: 10px;
+    justify-content: center;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+svg {
+    display: block;
+    margin: 0 auto;
+    font: 10px sans-serif;
+}
+
+.row {
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#attrInput {
+    width: 100px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
